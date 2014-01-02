@@ -1,0 +1,30 @@
+{
+  "name": "co-sleep",
+  "version": "0.0.1",
+  "description": "setTimeout that works with the co generator framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha --harmony"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eugeneware/co-sleep"
+  },
+  "keywords": [
+    "co",
+    "setTimeout",
+    "sleep",
+    "wait"
+  ],
+  "author": "Eugene Ware <eugene@noblesamurai.com>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/eugeneware/co-sleep/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "expect.js": "~0.2.0",
+    "co": "~3.0.1",
+    "mocha": "~1.16.2"
+  }
+}
